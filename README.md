@@ -139,7 +139,14 @@ python -m pytest tests/test_api/test_auth.py -v
 
 Tests use a separate PostgreSQL database configured in [tests/conftest.py](tests/conftest.py). Update `DATABASE_TEST_URL` in the conftest file to match your test database credentials.
 
-## Database Migrations
+## Live Demo
+
+You can access the deployed FastAPI application here:
+
+- **Application URL:** [My FastAPI App](https://edutrack-pro.onrender.com/)
+- **Swagger UI (Interactive API docs):** [Swagger Docs](https://edutrack-pro.onrender.com/docs)
+- **ReDoc (API documentation):** [ReDoc Docs](https://edutrack-pro.onrender.com/redoc)
+
 
 ### Create new migration
 ```bash
