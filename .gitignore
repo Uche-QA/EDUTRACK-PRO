@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Coverage files
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+venvv/Lib/site-packages/alembic/templates/generic/env.py
